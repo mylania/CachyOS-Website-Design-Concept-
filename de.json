@@ -1,0 +1,119 @@
+{
+    "nav": {
+        "download": "Download",
+        "about": "Über uns",
+        "blog": "Blog",
+        "forum": "Forum",
+        "wiki": "Wiki",
+        "packages": "Pakete"
+    },
+    "hero": {
+        "title1": "Blitzschnelle &",
+        "title2": "Anpassbare",
+        "title3": "Linux Distribution",
+        "description": "CachyOS wurde entwickelt, um blitzschnelle Geschwindigkeiten und Stabilität zu bieten und jedes Mal ein reibungsloses und angenehmes Computing-Erlebnis zu gewährleisten.",
+        "download": "Download",
+        "learn": "Mehr erfahren",
+        "stat1": "Bessere Geschwindigkeit",
+        "stat2": "Sicherheit",
+        "stat3": "Benutzerfreundlichkeit"
+    },
+    "features": {
+        "title": "Funktionen",
+        "subtitle": "Entdecken Sie die Vorteile von CachyOS",
+        "performance": {
+            "title": "Modernste Performance",
+            "desc": "Basierend auf Arch Linux bietet CachyOS den optimierten linux-cachyos-Kernel mit dem fortschrittlichen BORE-Scheduler für unübertroffene Leistung."
+        },
+        "optimized": {
+            "title": "Optimierte Pakete",
+            "desc": "Pakete kompiliert mit x86-64-v3, x86-64-v4 und Zen4-Anweisungssätzen mit LTO. Kernpakete erhalten PGO- oder BOLT-Optimierung."
+        },
+        "desktop": {
+            "title": "Mehrere Desktop-Umgebungen",
+            "desc": "Wählen Sie während der Installation aus KDE Plasma, GNOME, XFCE, i3, Wayfire, LXQt, Openbox, Cinnamon, COSMIC und vielen mehr."
+        },
+        "installer": {
+            "title": "Flexible Installation",
+            "desc": "Wählen Sie zwischen einem benutzerfreundlichen GUI-Installer basierend auf Calamares oder einer schlanken CLI-basierten Option."
+        },
+        "kernel": {
+            "title": "Robuste Kernel-Unterstützung",
+            "desc": "Mehrere Scheduler-Optionen einschließlich BORE, EEVDF, sched-ext, ECHO und RT. Alle Kernel für Ihre CPU optimiert."
+        },
+        "support": {
+            "title": "Unterstützen Sie uns",
+            "desc": "Ihre Großzügigkeit wird geschätzt - Vielen Dank für die Unterstützung unserer Arbeit in der Open-Source-Community.",
+            "btn": "Spenden"
+        }
+    },
+    "download": {
+        "title": "Schnell & Sicher",
+        "subtitle": "Erleben Sie blitzschnelle Performance. Viel Spaß! :)",
+        "desktop": {
+            "title": "Desktop Edition",
+            "desc": "Stärken Sie Ihr Computing mit einer modernen, anpassbaren Desktop-Umgebung. Surfen, verbinden, Dateien verwalten und Multimedia in einer atemberaubenden Oberfläche genießen.",
+            "btn": "Herunterladen"
+        },
+        "handheld": {
+            "title": "Handheld Edition",
+            "desc": "GameMode-ähnliche Erfahrung mit vorinstallierten Gaming-Tools. Unterstützt ROG Ally, Steam Deck, Legion Go und mehr.",
+            "btn": "Herunterladen"
+        }
+    },
+    "download_page": {
+        "title": "Wählen Sie Ihre bevorzugte Edition",
+        "subtitle": "Wählen Sie aus einer Vielzahl von Desktop-Umgebungen, Wayland Compositors und X11 Window Managern. Einfach herunterladen und mit dem Online-GUI-ISO-Installer installieren.",
+        "desktop": {
+            "title": "Desktop Edition",
+            "desc": "Stärken Sie Ihr Computing mit einer modernen, anpassbaren Desktop-Umgebung — surfen Sie im Web, bleiben Sie mit Freunden und Familie verbunden, verwalten Sie Dateien und arbeiten Sie effizient.",
+            "btn": "Neueste Version herunterladen"
+        },
+        "handheld": {
+            "title": "Handheld Edition",
+            "desc": "Die CachyOS Handheld Edition bietet eine GameMode-ähnliche Erfahrung mit vorinstallierten Gaming-Tools. Unterstützt ROG Ally, Steam Deck OLED und LCD, Legion Go und Lenovo Legion Go S.",
+            "btn": "Neueste Version herunterladen"
+        }
+    },
+    "about": {
+        "hero": {
+            "title": "Über die Distribution",
+            "description": "CachyOS ist eine benutzerfreundliche und hochoptimierte Distribution basierend auf Arch Linux. Unsere Distribution bietet einen nahtlosen Installationsprozess und eine Vielzahl von Anpassungsoptionen, um Ihr Computing-Erlebnis zu personalisieren. Egal, ob Sie Anfänger oder erfahrener Benutzer sind, CachyOS liefert optimierte Leistung bei gleichzeitiger Beibehaltung seiner Einfachheit."
+        },
+        "team": {
+            "title": "Lernen Sie unser Team kennen!",
+            "subtitle": "Lernen Sie die Menschen hinter CachyOS kennen!",
+            "peter": {"role": "Gründer, Entwickler"},
+            "vladislav": {"role": "Gründer, Entwickler"},
+            "piotr": {"role": "Kernel-Maintainer, Universitätsdozent"},
+            "vasiliy": {"role": "Entwickler, Maintainer von ARU, CHWD, Settings"},
+            "eric": {"role": "Paket- und Kernel-Maintainer"},
+            "harsh": {"role": "Entwickler, Maintainer von Chroot, Website"},
+            "nekoh": {"role": "Entwickler, Maintainer der Handheld Edition"},
+            "stelios": {"role": "Entwickler, Maintainer von Wine & Proton"},
+            "vilda": {"role": "Mitwirkender, Wiki, Dokumentation, Tutorials"},
+            "firelzrd": {"role": "BORE Scheduler"},
+            "luca": {"role": "GFX, ART"},
+            "matias": {"role": "Mitwirkender, Wiki, Tester, CachyOS Ricer"}
+        }
+    },
+    "blog": {
+        "title": "Cachy Blog",
+        "subtitle": "Neueste Updates, Releases und Nachrichten vom CachyOS Team",
+        "older": "Ältere Beiträge"
+    },
+    "sponsors": {
+        "title": "Unsere Sponsoren",
+        "note": "Vielen Dank an alle unsere Sponsoren für die Unterstützung von CachyOS"
+    },
+    "footer": {
+        "description": "Blitzschnelles OS basierend auf Arch Linux",
+        "product": {"title": "Produkt", "features": "Funktionen", "team": "Team"},
+        "support": {"title": "Support", "docs": "Dokumentation", "forum": "Community Forum"},
+        "distribution": {"title": "Distribution", "about": "Über uns", "blog": "Blog"},
+        "terms": "Nutzungsbedingungen",
+        "privacy": "Datenschutz",
+        "imprint": "Impressum",
+        "copyright": "Erstellt von CachyOS · Alle Rechte vorbehalten."
+    }
+}

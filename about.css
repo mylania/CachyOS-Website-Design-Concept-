@@ -1,0 +1,152 @@
+.about-hero {
+    padding: 140px 0 80px;
+    text-align: center;
+}
+
+.about-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--spacing-2xl);
+}
+
+.hero-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.about-description {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.team-section {
+    padding: var(--spacing-3xl) 0;
+    background: var(--bg-secondary);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--spacing-xl);
+    justify-items: center;
+}
+
+.team-member {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-xl);
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+    transition: var(--transition-slow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary);
+}
+
+.member-avatar {
+    width: 100px;
+    height: 100px;
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--spacing-lg);
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.member-avatar svg {
+    stroke: white;
+    width: 48px;
+    height: 48px;
+}
+
+.member-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.member-name {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-xs);
+    color: var(--text-primary);
+}
+
+.member-role {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-md);
+    line-height: 1.5;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+}
+
+.member-github {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--text-tertiary);
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: var(--transition);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    background: var(--bg-secondary);
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.member-github:hover {
+    color: var(--primary);
+    background: var(--bg-tertiary);
+}
+
+.member-github svg {
+    width: 16px;
+    height: 16px;
+}
+
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 120px 0 60px;
+    }
+    .hero-logo {
+        width: 150px;
+        height: 150px;
+    }
+    .about-description {
+        font-size: 1rem;
+    }
+    .team-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: var(--spacing-lg);
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-logo {
+        width: 120px;
+        height: 120px;
+    }
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+    .team-member {
+        max-width: 100%;
+    }
+}

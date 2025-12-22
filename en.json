@@ -1,0 +1,119 @@
+{
+    "nav": {
+        "download": "Download",
+        "about": "About",
+        "blog": "Blog",
+        "forum": "Forum",
+        "wiki": "Wiki",
+        "packages": "Packages"
+    },
+    "hero": {
+        "title1": "Blazingly Fast &",
+        "title2": "Customizable",
+        "title3": "Linux Distribution",
+        "description": "CachyOS is designed to deliver lightning-fast speeds and stability, ensuring a smooth and enjoyable computing experience every time you use it.",
+        "download": "Download",
+        "learn": "Learn more",
+        "stat1": "Better Speed",
+        "stat2": "Security",
+        "stat3": "Ease of Use"
+    },
+    "features": {
+        "title": "Features",
+        "subtitle": "Discover the Benefits of CachyOS",
+        "performance": {
+            "title": "Cutting-Edge Performance",
+            "desc": "Built on Arch Linux, CachyOS features the optimized linux-cachyos kernel utilizing the advanced BORE Scheduler for unparalleled performance."
+        },
+        "optimized": {
+            "title": "Optimized Packages",
+            "desc": "Packages compiled with x86-64-v3, x86-64-v4 and Zen4 instruction sets with LTO. Core packages get PGO or BOLT optimization."
+        },
+        "desktop": {
+            "title": "Multiple Desktop Environments",
+            "desc": "Choose from KDE Plasma, GNOME, XFCE, i3, Wayfire, LXQt, Openbox, Cinnamon, COSMIC, and many more during installation."
+        },
+        "installer": {
+            "title": "Flexible Installation",
+            "desc": "Choose between a user-friendly GUI installer based on Calamares or a streamlined CLI-based option."
+        },
+        "kernel": {
+            "title": "Robust Kernel Support",
+            "desc": "Multiple scheduler options including BORE, EEVDF, sched-ext, ECHO, and RT. All kernels optimized for your CPU."
+        },
+        "support": {
+            "title": "Support Our Efforts",
+            "desc": "Your generosity is appreciated - Thank you for supporting our work in the open-source community.",
+            "btn": "Donate"
+        }
+    },
+    "download": {
+        "title": "Fast & Secure",
+        "subtitle": "Experience Lightning-Fast Performance. Have fun! :)",
+        "desktop": {
+            "title": "Desktop Edition",
+            "desc": "Empower your computing with a modern, customizable desktop environment. Browse, connect, manage files, and enjoy multimedia in a stunning interface.",
+            "btn": "Download"
+        },
+        "handheld": {
+            "title": "Handheld Edition",
+            "desc": "GameMode-like experience with preinstalled gaming tools. Supports ROG Ally, Steam Deck, Legion Go, and more.",
+            "btn": "Download"
+        }
+    },
+    "download_page": {
+        "title": "Select Your Preferred Edition",
+        "subtitle": "Choose from a range of Desktop Environments, Wayland Compositors and X11 Window Managers. Simply download and install using the online GUI ISO installer.",
+        "desktop": {
+            "title": "Desktop Edition",
+            "desc": "Empower your computing with a modern, customizable desktop environment — browse the web, stay connected, manage files, and work efficiently.",
+            "btn": "Download latest release"
+        },
+        "handheld": {
+            "title": "Handheld Edition",
+            "desc": "The CachyOS Handheld Edition provides a GameMode-like experience with preinstalled gaming tools. Supports ROG Ally, Steam Deck OLED and LCD, Legion Go, and Lenovo Legion Go S.",
+            "btn": "Download latest release"
+        }
+    },
+    "about": {
+        "hero": {
+            "title": "About the Distribution",
+            "description": "CachyOS is a user-friendly and highly optimized distribution based on Arch Linux. Our distribution offers a seamless installation process and a range of customization options to personalize your computing experience. Whether you're a beginner or an experienced user, CachyOS delivers optimized performance while maintaining its simplicity."
+        },
+        "team": {
+            "title": "Meet our team!",
+            "subtitle": "Meet the people behind CachyOS!",
+            "peter": {"role": "Founder, Developer"},
+            "vladislav": {"role": "Founder, Developer"},
+            "piotr": {"role": "Kernel maintainer, University lecturer"},
+            "vasiliy": {"role": "Developer, Maintainer of ARU, CHWD, Settings"},
+            "eric": {"role": "Package and Kernel Maintainer"},
+            "harsh": {"role": "Developer, Maintainer of Chroot, Website"},
+            "nekoh": {"role": "Developer, Maintainer of Handheld Edition"},
+            "stelios": {"role": "Developer, Maintainer of Wine & Proton"},
+            "vilda": {"role": "Contributor, Wiki, Documentation, Tutorials"},
+            "firelzrd": {"role": "BORE Scheduler"},
+            "luca": {"role": "GFX, ART"},
+            "matias": {"role": "Contributor, Wiki, Tester, CachyOS Ricer"}
+        }
+    },
+    "blog": {
+        "title": "Cachy Blog",
+        "subtitle": "Latest updates, releases and news from the CachyOS team",
+        "older": "Older posts"
+    },
+    "sponsors": {
+        "title": "Our Sponsors",
+        "note": "Thank you to all our sponsors for supporting CachyOS"
+    },
+    "footer": {
+        "description": "Blazingly Fast OS based on Arch Linux",
+        "product": {"title": "Product", "features": "Features", "team": "Team"},
+        "support": {"title": "Support", "docs": "Docs", "forum": "Community Forum"},
+        "distribution": {"title": "Distribution", "about": "About", "blog": "Blog"},
+        "terms": "Terms",
+        "privacy": "Privacy Policy",
+        "imprint": "Imprint",
+        "copyright": "Made by CachyOS · All rights reserved."
+    }
+}
